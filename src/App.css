@@ -89,12 +89,13 @@ img.meme_img{
 
 .meme-text-top{
   position: absolute;
-  top:15%;
+  top:20%;
   left: 50%;
   transform: translate(-50%, 0);
   color: #ffffff; 
   font-weight: bolder;
   font-size: 34px;
+  word-wrap: break-word;
 }
 
 .meme-text-bottom{
@@ -105,5 +106,5 @@ img.meme_img{
   color: #ffffff;
   font-weight: bolder;
   font-size: 34px;
-
+  word-wrap: break-word;
 }
