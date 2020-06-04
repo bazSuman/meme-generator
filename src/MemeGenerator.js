@@ -107,8 +107,8 @@ class MemeGenerator extends React.Component {
 
                 <div id="meme">
                     <img className="meme_img" src={this.state.randomImage} style={{marginTop:"4%"}}></img>
-                    <p className="meme-text-top" style={{ position: "absolute", color: '#ffffff', fontWeight: 'bolder', fontSize: '34px'}}>{this.state.topText}</p>
-                    <p className="meme-text-bottom" style={{ position: "absolute", color: '#ffffff', fontWeight: 'bolder', fontSize: '34spx'}}>{this.state.bottomText}</p>
+                    <p className="meme-text-top">{this.state.topText}</p>
+                    <p className="meme-text-bottom">{this.state.bottomText}</p>
                 </div>
             </div>
 

@@ -92,6 +92,9 @@ img.meme_img{
   top:15%;
   left: 50%;
   transform: translate(-50%, 0);
+  color: #ffffff; 
+  font-weight: bolder;
+  font-size: 34px;
 }
 
 .meme-text-bottom{
@@ -99,5 +102,8 @@ img.meme_img{
   bottom: 5%;
   left: 50%;
   transform: translate(-50%, 0);
+  color: #ffffff;
+  font-weight: bolder;
+  font-size: 34px;
 
 }
