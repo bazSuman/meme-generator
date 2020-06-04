@@ -3,16 +3,19 @@
   padding: 0;
 }
 
-body{
+html,body{
   font-family: cursive;
-  overflow-x: hidden;
+  /* overflow-x: hidden; */
 }
 
 h1{
   color: #ffffff;
-  background-color: black;
+  background-color: paleturquoise;
+  box-shadow: 2px 2px 2px rgba(0, 0, 0.6, 0.4);
   padding: 2%;
   z-index: 999;
+  position: absolute;
+  top: 0;
 }
 
 h4{
@@ -86,6 +89,26 @@ img.meme_img{
   left: 50%;
   transform: translate(-50%, 0%);
 }
+
+
+/*-----------------------
+Meme Image Size Media Query
+-----------------------*/
+
+@media (max-width:582px){
+  img.meme_img{
+    width: 100vw;
+    position: relative;
+    top: 0;
+    left: 50%;
+    transform: translate(-50%, 0%);
+  }
+}
+
+/*-----------------------
+End of Media query
+------------------------*/
+
 
 .meme-text-top{
   position: absolute;
