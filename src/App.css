@@ -14,8 +14,7 @@ h1{
   box-shadow: 2px 2px 2px rgba(0, 0, 0.6, 0.4);
   padding: 2%;
   z-index: 999;
-  position: absolute;
-  top: 0;
+  
 }
 
 h4{
@@ -51,7 +50,7 @@ input:active, input:focus{
 }
 
 table{
-  background: paleturquoise;
+  background: red;
   width: auto;
   text-align: center;
   height: 12vh;
