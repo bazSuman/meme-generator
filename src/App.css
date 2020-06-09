@@ -44,9 +44,18 @@ input{
   transition: 0.4s;
 }
 
+input:hover{
+  background-color: silver;
+  transition: 1s;
+}
+
 input:active, input:focus{
   border-bottom: 2px solid orangered;
   transition: 0.4s;
+}
+
+.colorLabel{
+  /* margin-bottom: -120px; */
 }
 
 table{
@@ -130,3 +139,87 @@ End of Media query
   font-size: 34px;
   word-wrap: break-word;
 }
+
+.meme-text-middle{
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, 0%);
+  color: #ffffff;
+  font-weight: bolder;
+  font-size: 34px;
+  word-wrap: break-word;
+}
+
+.meme-text-top-left{
+  position: absolute;
+  top: 15%;
+  left: 35%;
+  width: 25%;
+  transform: translate(-50%, 0);
+  color: black;
+  font-weight: bolder;
+  font-size: 34px;
+  word-wrap: break-word;
+}
+
+.meme-text-bottom-left{
+  position: absolute;
+  bottom: 15%;
+  left: 35%;
+  width: 25%;
+  transform: translate(-50%, 0);
+  color: black;
+  font-weight: bolder;
+  font-size: 34px;
+  word-wrap: break-word;
+}
+
+.meme-text-left{
+  position: absolute;
+  bottom: 5%;
+  left: 42%;
+  width: 25%;
+  transform: translate(-50%, 0);
+  color: #ffffff;
+  font-weight: bolder;
+  font-size: 34px;
+  word-wrap: break-word;
+}
+
+.meme-text-right{
+  position: absolute;
+  bottom: 5%;
+  right: 10%;
+  width: 25%;
+  transform: translate(-50%, 0);
+  color: #ffffff;
+  font-weight: bolder;
+  font-size: 34px;
+  word-wrap: break-word;
+}
+
+.meme-text-top-right{
+  position: absolute;
+  top: 25%;
+  right: 10%;
+  width: 25%;
+  transform: translate(-10%, -25%);
+  color: black;
+  font-weight: bolder;
+  font-size: 34px;
+  word-wrap: break-word;
+}
+
+.meme-text-bottom-right{
+  position: absolute;
+  top: 75%;
+  right: 10%;
+  width: 25%;
+  transform: translate(-10%, -75%);
+  color: black;
+  font-weight: bolder;
+  font-size: 34px;
+  word-wrap: break-word;
+}
+
