@@ -254,26 +254,24 @@ class MemeGenerator extends React.Component {
                                             Select Text color :
                                         </label>
                                     </td>
-                                    <td>
+                                    <td className="colorLabelTd">
                                         <input
-                                            className="colorLabel"
                                             type="radio"
                                             name="color"
                                             value="black"
                                             checked={this.state.color==="black"}
                                             onChange={this.handleChange}
                                          />
-                                         <label> Black</label>
-                                        <br/>
+                                         <label className="colorLabel mr-rt"> Black</label>
+                                        {/* <br/> */}
                                         <input
-                                            className="colorLabel"
                                             type="radio"
                                             name="color"
                                             value="white"
                                             checked={this.state.color==="white"}
                                             onChange={this.handleChange}
                                         />
-                                        <label> White</label>
+                                        <label className="colorLabel"> White</label>
                                     </td>
                                 </tr>
 

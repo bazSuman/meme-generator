@@ -54,8 +54,17 @@ input:active, input:focus{
   transition: 0.4s;
 }
 
+.colorLabelTd{
+  padding: 15px 0 0 0;
+  display: flex;
+}
+
 .colorLabel{
-  /* margin-bottom: -120px; */
+  margin-left: 2%;
+}
+
+.mr-rt{
+  margin-right: 4%;
 }
 
 table{
